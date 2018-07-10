@@ -15,6 +15,9 @@
 
 ```
 
+2、添加css示例
+```html
+
 <!DOCTYPE HTML>
 <html>
     <head>
@@ -32,3 +35,4 @@
         <h1>Hello World!</h1>
     </body>
 </html>
+```
