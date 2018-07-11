@@ -266,6 +266,26 @@ html
 </form>
 ```
 
+27.文本输入框
 
+```html
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>文本输入框、密码输入框</title>
+</head>
+<body>
+<form  method="post" action="save.php">
+    账户: 
+	<input type="text" name="账号名称" value="请输入账号名称" />
+	<br>
+	密码: 
+    <input type="password" name="请输入账号密码" />
+</form> 
+</body>
+</html>
+```
+![image](https://github.com/HwiLu/a-Little-webDev/blob/master/HTML/picture/%E6%96%87%E6%9C%AC%E8%BE%93%E5%85%A5%E6%A1%86.png)
 
 
