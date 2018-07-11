@@ -279,7 +279,7 @@ html
 <form  method="post" action="save.php">
     账户: 
 	<input type="text" name="账号名称" value="请输入账号名称" />
-	<br>
+	<br/>
 	密码: 
     <input type="password" name="请输入账号密码" />
 </form> 
@@ -287,5 +287,28 @@ html
 </html>
 ```
 ![image](https://github.com/HwiLu/a-Little-webDev/blob/master/HTML/picture/%E6%96%87%E6%9C%AC%E8%BE%93%E5%85%A5%E6%A1%86.png)
+
+28.文本输入域
+
+支持多行文本输入
+```html
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>文本域</title>
+</head>
+<body>
+<form action="save.php" method="post" >
+    <label>个人简介：</label>
+    <br/>
+    <textarea cols="50" rows="10">在这里输入内容...</textarea>
+    <br/>
+    <input type="submit" value="确定"  name="submit" />
+    <input type="reset" value="重置"  name="reset" />
+</form> 
+</body>
+</html>
+```
 
 
